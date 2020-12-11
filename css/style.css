@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Segoe UI, Helvetica,'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #193661;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-family: Segoe UI, Helvetica,'Times New Roman', Times, serif, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+body button {
+  position: absolute;
+  top: 1.0rem;
+  right: 0.5rem;
+  padding: 0.5rem;
+  background-color: #3c5cb3;
+  color: white;
+  font-weight: 500;
+}
+
+body img {
+  padding: 1.4rem 1rem;
+  margin-bottom: 1.5rem;
+  max-width: 50vw;
+  width: 40vw;
+  min-width: 250px;
+}
+
+body form {
+  position: relative;
+}
+
+body form h4 {
+  padding: auto;
+  color: #fdfdfa;
+  font-weight: 400;
+}
+
+body form input {
+  padding: .5rem;
+  margin: .5rem auto;
+  border-radius: 6px;
+  max-width: 100vw;
+  width: 250px;
+  border: 1px solid darkslateblue;
+  outline: none;
+}
+
+body form input[type=submit] {
+  background-color: #3c5cb3;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 150px;
+}
+
+body form input:hover {
+  background-color: #9adada;
+  border: 1px solid darkviolet;
+}
+
+body form input[type=submit]:focus {
+  color: black;
+}
+
+body form input:focus {
+  background-color: #73e9e9;
+}
+
+#regList {
+  color: white;
+  font-size: 1rem;
+}
+
+#regList h4 {
+  padding: auto;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+#regList table {
+  background-color: rgba(0, 0, 0, 0.15);
+  max-width: 100vw;
+  overflow: auto;
+  border-radius: 3px;
+  border-spacing: 0;
+}
+
+#regList table tr:nth-child(2n) {
+  padding: 1.2rem .2rem;
+  background-color: rgba(204, 191, 191, 0.15);
+  border-collapse: collapse;
+  border-color: transparent;
+}
+
+#regList table tr {
+  padding: 1.2rem .2rem;
+}
+
+#regList table tr th {
+  font-weight: 400;
+  padding: .7rem;
+}
+
+#regList table tr td {
+  padding: .6rem;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
